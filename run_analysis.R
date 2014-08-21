@@ -104,10 +104,7 @@ get_feature_data_X <- function(isTest){
         feature_data_file_X <- get_filename(5)
     }
     
-    row_format <- NULL
-    for(i in 1:x_column_count){
-        row_format <- append(row_format, c(-1,15))
-    }
+    
     feature_data_X <- scan(file = feature_data_file_X, sep = " ", strip.white = F, what = "numeric" )
     feature_data_X <- as.numeric(feature_data_X)
     feature_data_X <- feature_data_X[!is.na(feature_data_X)]
@@ -158,9 +155,9 @@ main <- function(){
     activities <- get_activities()
     result <- merge(activities, result)
     result$ActivityId <- NULL
-    
-    result <- aggregate(result[, 3:x_column_count+2],by=list(result$Subject, result$ActivityName), FUN=mean)
-    
+
+    result <- aggregate(result[,3:(x_column_count+2)],by=list(result$Subject, result$ActivityName), FUN=mean)
+
     colnames(result)[1] <- "Subject"
     colnames(result)[2] <- "ActivityName"
     
@@ -168,10 +165,29 @@ main <- function(){
     valid_column_names <- get_features()
     valid_column_indexes <- grep("mean[(]|std[(]", tolower(valid_column_names[,2]))
     valid_column_names <- as.vector(valid_column_names[valid_column_indexes, 2])
-    valid_column_names <- append(valid_column_names, c("Subject", "ActivityName"))
+    valid_column_names <- append(c("Subject", "ActivityName"),valid_column_names)
     
     result <- result[, names(result) %in% valid_column_names]
+    result <- correct_column_names(result)
     
     write.table(result, file = "result.txt", row.name = F)
     
+    result
+}
+
+correct_column_names <- function(data_table){
+    
+    col_names <- names(data_table)
+    col_names <- gsub("fBody", "FFTBody", col_names)
+    col_names <- gsub("tBody", "Body", col_names)
+    col_names <- gsub("tGravity", "Gravity", col_names)
+    col_names <- gsub("Gyro", "Gyroscope", col_names)
+    col_names <- gsub("Acc", "Acceleration", col_names)
+    col_names <- gsub("mag", "Magnitude", col_names)
+    col_names <- gsub("Mag", "Magnitude", col_names)
+    col_names <- gsub("mean()", "Mean", col_names)
+    col_names <- gsub("std()", "STD", col_names)
+    col_names <- gsub("-|\\()", "", col_names)
+    colnames(data_table) <- col_names
+    return(data_table)
 }
