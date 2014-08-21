@@ -31,73 +31,73 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 8- BodyAccelerationSTDZ: Average of body accelerations std (standard deviation)  in Z axis
 
-9- GravityAccelerationMeanX
+9- GravityAccelerationMeanX: Average of gravity accelerations mean in X axis
 
-10- GravityAccelerationMeanY
+10- GravityAccelerationMeanY: Average of gravity accelerations mean in Y axis
 
-11- GravityAccelerationMeanZ
+11- GravityAccelerationMeanZ: Average of gravity accelerations mean in Z axis
 
-12- GravityAccelerationSTDX
+12- GravityAccelerationSTDX: Average of gravity accelerations std (standard deviation)  in X axis
 
-13- GravityAccelerationSTDY
+13- GravityAccelerationSTDY: Average of gravity accelerations std (standard deviation)  in Y axis
 
-14- GravityAccelerationSTDZ
+14- GravityAccelerationSTDZ: Average of gravity accelerations std (standard deviation)  in Z axis
 
-15- BodyAccelerationJerkMeanX
+15- BodyAccelerationJerkMeanX: Average of body accelerations mean for Jerk signal in X axis
 
-16- BodyAccelerationJerkMeanY
+16- BodyAccelerationJerkMeanY: Average of body accelerations mean for Jerk signal in Y axis
 
-17- BodyAccelerationJerkMeanZ
+17- BodyAccelerationJerkMeanZ: Average of body accelerations mean for Jerk signal in Z axis
 
-18- BodyAccelerationJerkSTDX
+18- BodyAccelerationJerkSTDX: Average of body accelerations std (standard deviation) for Jerk signal in X axis
 
-19- BodyAccelerationJerkSTDY
+19- BodyAccelerationJerkSTDY: Average of body accelerations std (standard deviation) for Jerk signal in Y axis
 
-20- BodyAccelerationJerkSTDZ
+20- BodyAccelerationJerkSTDZ: Average of body accelerations std (standard deviation) for Jerk signal in Z axis
 
-21- BodyGyroscopeMeanX
+21- BodyGyroscopeMeanX: Average of body gyroscope mean in X axis
 
-22- BodyGyroscopeMeanY
+22- BodyGyroscopeMeanY: Average of body gyroscope mean in Y axis
 
-23- BodyGyroscopeMeanZ
+23- BodyGyroscopeMeanZ: Average of body gyroscope mean in Z axis
 
-24- BodyGyroscopeSTDX
+24- BodyGyroscopeSTDX: Average of body gyroscope std (standard deviation) in X axis
 
-25- BodyGyroscopeSTDY
+25- BodyGyroscopeSTDY: Average of body gyroscope std (standard deviation) in Y axis
 
-26- BodyGyroscopeSTDZ
+26- BodyGyroscopeSTDZ: Average of body gyroscope std (standard deviation) in Z axis
 
-27- BodyGyroscopeJerkMeanX
+27- BodyGyroscopeJerkMeanX: Average of body gyroscope mean for Jerk signal in X axis
 
-28- BodyGyroscopeJerkMeanY
+28- BodyGyroscopeJerkMeanY: Average of body gyroscope mean for Jerk signal in Y axis
 
-29- BodyGyroscopeJerkMeanZ
+29- BodyGyroscopeJerkMeanZ: Average of body gyroscope mean for Jerk signal in Z axis
 
-30- BodyGyroscopeJerkSTDX
+30- BodyGyroscopeJerkSTDX: Average of body gyroscope std (standard deviation) for Jerk signal in X axis
 
-31- BodyGyroscopeJerkSTDY
+31- BodyGyroscopeJerkSTDY: Average of body gyroscope std (standard deviation) for Jerk signal in Y axis
 
-32- BodyGyroscopeJerkSTDZ
+32- BodyGyroscopeJerkSTDZ: Average of body gyroscope std (standard deviation) for Jerk signal in Z axis
 
-33- BodyAccelerationMagnitudeMean
+33- BodyAccelerationMagnitudeMean: Average of body acceleration magnitude mean
 
-34- BodyAccelerationMagnitudeSTD
+34- BodyAccelerationMagnitudeSTD: Average of body acceleration magnitude std (standard deviation) 
 
-35- GravityAccelerationMagnitudeMean
+35- GravityAccelerationMagnitudeMean: Average of gravity acceleration magnitude mean
 
-36- GravityAccelerationMagnitudeSTD
+36- GravityAccelerationMagnitudeSTD: Average of gravity acceleration magnitude std (standard deviation) 
 
-37- BodyAccelerationJerkMagnitudeMean
+37- BodyAccelerationJerkMagnitudeMean: Average of body acceleration magnitude mean of Jerk signal
 
-38- BodyAccelerationJerkMagnitudeSTD
+38- BodyAccelerationJerkMagnitudeSTD: Average of body acceleration magnitude std (standard deviation) of Jerk signal
 
-39- BodyGyroscopeMagnitudeMean
+39- BodyGyroscopeMagnitudeMean: Average of body gyroscope magnitude mean 
 
-40- BodyGyroscopeMagnitudeSTD
+40- BodyGyroscopeMagnitudeSTD: Average of body gyroscope magnitude std (standard deviation) 
 
-41- BodyGyroscopeJerkMagnitudeMean
+41- BodyGyroscopeJerkMagnitudeMean: Average of body gyroscope magnitude mean of Jerk signal
 
-42- BodyGyroscopeJerkMagnitudeSTD
+42- BodyGyroscopeJerkMagnitudeSTD: Average of body gyroscope magnitude std (standard deviation) of Jerk signal
 
 43- FFTBodyAccelerationMeanX
 
