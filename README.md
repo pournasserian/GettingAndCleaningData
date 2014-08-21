@@ -44,15 +44,15 @@ These are the steps which I've implemented in R Language (the whole code is in f
 
 How to run
 ------------------
-- Download the data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
+- Download the data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-%20Dataset.zip 
 - Extract in your computer in a folder <MyFolder>
 - Download "run_analysis.R" from this Repo in <MyFolder>
 - Open "run_analysis.R" with R-Studio
 - Set the working directory to <MyFolder> using setwd() function 
 - Load the script in the environment
-- Call main() function to get the result
+- Call `main()` function to get the result
+
 Replace <MyFolder> with you folder full path and execute this script 
 ```sh
 setwd("<MyFolder>")
