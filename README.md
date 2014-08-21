@@ -12,7 +12,7 @@ These are the steps which I've implemented in R Language (the whole code is in f
 - Reading Subjects data ("test/subject_test.txt")
 - Binding columns of X, Y, and Subject dataset
 
->Note: I used scan function too read the X files because it's more faster and memory-efficient than other read functions.
+>Note: I used scan() function to read the X files because it's more faster and memory-efficient than other read functions.
 
 
 **Reading measurment data (train dataset)**
@@ -42,6 +42,12 @@ How to run
 - Extract in your computer in a folder <MyFolder>
 - Download "run_analysis.R" from this Repo in <MyFolder>
 - Open "run_analysis.R" with R-Studio
-- Set the working directory to <MyFolder> using setwd() function (ie: setwd("c:/UserData/MyData/"))
-- Load the script using source("run_analysis.R")
+- Set the working directory to <MyFolder> using setwd() function 
+- Load the script in the environment
 - Call main() function to get the result
+Replace <MyFolder> with you folder full path and execute this script 
+```sh
+setwd("<MyFolder>"))
+source("run_analysis.R")
+result <- main()
+```
