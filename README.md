@@ -1,4 +1,4 @@
-Analysis of Human Activity Recognition Using Smartphones Dataset
+Getting and Cleaning Data Course Project
 ======================
 
 Analysis Execution Progress
@@ -36,7 +36,7 @@ These are the steps which I've implemented in R Language (the whole code is in f
 - Remove unused columns from main-dataset
 - Changing column names to be more readable
 
->Note: In the last step I have replaced some abbreviations with their complete work. The function `correct_column_names` also remove unnecessary letters like parentheses, dashes,...
+>Note: In the last step I have replaced some abbreviations with their complete work. The function `correct_column_names()` also remove unnecessary letters like parentheses, dashes,...
 
 **Saving and returning data**
 - Saving result using write.table
