@@ -68,3 +68,4 @@ setwd("<MyFolder>")
 source("run_analysis.R")
 result <- main()
 ```
+`main()` function saves 'result.txt' file in working directory and returns the dataset as well.
