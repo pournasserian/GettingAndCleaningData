@@ -1,6 +1,5 @@
 Codebook
-----------------------------
-----------------------------
+=================================
 This codebook contains column information for the file 'result.txt'.
 
 The result file includes the average of measurements for each subject and each activity.
