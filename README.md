@@ -1,5 +1,7 @@
 Getting and Cleaning Data Course Project
 ======================
+About this repository
+---------------------
 This Repo contains the files in accordance to complete the Getting and Cleaning Data Course Project in Coursera.org. The Repo includes the following files:
 - 'README.md': General description of the solution
 - 'COOKBOOK.md': Complete decription and format of result of the solution
