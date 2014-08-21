@@ -11,13 +11,9 @@ There are **68** columns exists in the result file.
 
 Columns
 ----------------------------
-1- Subject:
+1- Subject: The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. This column contains the volunteer id.
 
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. This column contains the volunteer id.
-
-2- ActivityName: 
-
-Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. This column is one of six activities.
+2- ActivityName: Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. This column is one of six activities.
 
 3- BodyAccelerationMeanX: Average of body accelerations mean in X axis    
 
@@ -99,55 +95,55 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 42- BodyGyroscopeJerkMagnitudeSTD: Average of body gyroscope magnitude std (standard deviation) of Jerk signal
 
-43- FFTBodyAccelerationMeanX
+43- FFTBodyAccelerationMeanX: Average of fast fourier transform for body acceleration mean in X axis
 
-44- FFTBodyAccelerationMeanY
+44- FFTBodyAccelerationMeanY: Average of fast fourier transform for body acceleration mean in Y axis 
 
-45- FFTBodyAccelerationMeanZ
+45- FFTBodyAccelerationMeanZ: Average of fast fourier transform for body acceleration mean in Z axis 
 
-46- FFTBodyAccelerationSTDX
+46- FFTBodyAccelerationSTDX: Average of fast fourier transform for body acceleration std in X axis 
 
-47- FFTBodyAccelerationSTDY
+47- FFTBodyAccelerationSTDY: Average of fast fourier transform for body acceleration std in Y axis 
 
-48- FFTBodyAccelerationSTDZ
+48- FFTBodyAccelerationSTDZ: Average of fast fourier transform for body acceleration std in Z axis 
 
-49- FFTBodyAccelerationJerkMeanX
+49- FFTBodyAccelerationJerkMeanX: Average of fast fourier transform for body acceleration mean for Jerk signal in X axis  
 
-50- FFTBodyAccelerationJerkMeanY
+50- FFTBodyAccelerationJerkMeanY: Average of fast fourier transform for body acceleration mean for Jerk signal in Y axis
 
-51- FFTBodyAccelerationJerkMeanZ
+51- FFTBodyAccelerationJerkMeanZ: Average of fast fourier transform for body acceleration mean for Jerk signal in Z axis 
 
-52- FFTBodyAccelerationJerkSTDX
+52- FFTBodyAccelerationJerkSTDX: Average of fast fourier transform for body acceleration std for Jerk signal in X axis
 
-53- FFTBodyAccelerationJerkSTDY
+53- FFTBodyAccelerationJerkSTDY: Average of fast fourier transform for body acceleration std for Jerk signal in Y axis 
 
-54- FFTBodyAccelerationJerkSTDZ
+54- FFTBodyAccelerationJerkSTDZ: Average of fast fourier transform for body acceleration std for Jerk signal in Z axis 
 
-55- FFTBodyGyroscopeMeanX
+55- FFTBodyGyroscopeMeanX: Average of fast fourier transform for body gyroscope mean in X axis
 
-56- FFTBodyGyroscopeMeanY
+56- FFTBodyGyroscopeMeanY: Average of fast fourier transform for body gyroscope mean in Y axis
 
-57- FFTBodyGyroscopeMeanZ
+57- FFTBodyGyroscopeMeanZ: Average of fast fourier transform for body gyroscope mean in Z axis 
 
-58- FFTBodyGyroscopeSTDX
+58- FFTBodyGyroscopeSTDX: Average of fast fourier transform for body gyroscope std in X axis 
 
-59- FFTBodyGyroscopeSTDY
+59- FFTBodyGyroscopeSTDY: Average of fast fourier transform for body gyroscope std in Y axis 
 
-60- FFTBodyGyroscopeSTDZ
+60- FFTBodyGyroscopeSTDZ: Average of fast fourier transform for body gyroscope std in Z axis 
 
-61- FFTBodyAccelerationMagnitudeMean
+61- FFTBodyAccelerationMagnitudeMean: Average of fast fourier transform for body acceleration magnitude mean
 
-62- FFTBodyAccelerationMagnitudeSTD
+62- FFTBodyAccelerationMagnitudeSTD: Average of fast fourier transform for body acceleration magnitude std 
 
-63- FFTBodyBodyAccelerationJerkMagnitudeMean
+63- FFTBodyAccelerationJerkMagnitudeMean: Average of fast fourier transform for body acceleration magnitude mean for Jerk signal
 
-64- FFTBodyBodyAccelerationJerkMagnitudeSTD
+64- FFTBodyAccelerationJerkMagnitudeSTD: Average of fast fourier transform for body acceleration magnitude std for Jerk signal 
 
-65- FFTBodyBodyGyroscopeMagnitudeMean
+65- FFTBodyGyroscopeMagnitudeMean: Average of fast fourier transform for body gyroscope magnitude mean  
 
-66- FFTBodyBodyGyroscopeMagnitudeSTD
+66- FFTBodyGyroscopeMagnitudeSTD: Average of fast fourier transform for body gyroscope magnitude std   
 
-67- FFTBodyBodyGyroscopeJerkMagnitudeMean
+67- FFTBodyGyroscopeJerkMagnitudeMean: Average of fast fourier transform for body gyroscope magnitude mean for Jerk signal 
 
-68- FFTBodyBodyGyroscopeJerkMagnitudeSTD
+68- FFTBodyGyroscopeJerkMagnitudeSTD: Average of fast fourier transform for body gyroscope magnitude std for Jerk signal 
 
