@@ -12,7 +12,7 @@ These are the steps which I've implemented in R Language (the whole code is in f
 - Reading Subjects data ("test/subject_test.txt")
 - Binding columns of X, Y, and Subject dataset
 
-Note: I used scan function too read the X files because it's more faster and memory-efficient than other read functions.
+>Note: I used scan function too read the X files because it's more faster and memory-efficient than other read functions.
 
 
 **Reading measurment data (train dataset)**
