@@ -178,9 +178,10 @@ main <- function(){
 correct_column_names <- function(data_table){
     
     col_names <- names(data_table)
+    col_names <- gsub("BodyBody", "Body", col_names)
     col_names <- gsub("fBody", "FFTBody", col_names)
-    col_names <- gsub("tBody", "Body", col_names)
-    col_names <- gsub("tGravity", "Gravity", col_names)
+    col_names <- gsub("tBody", "TimeBody", col_names)
+    col_names <- gsub("tGravity", "TimeGravity", col_names)
     col_names <- gsub("Gyro", "Gyroscope", col_names)
     col_names <- gsub("Acc", "Acceleration", col_names)
     col_names <- gsub("mag", "Magnitude", col_names)

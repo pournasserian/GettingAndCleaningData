@@ -14,85 +14,85 @@ Columns
 
 2- ActivityName: Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. This column is one of six activities.
 
-3- BodyAccelerationMeanX: Average of body accelerations mean in X axis    
+3- TimeBodyAccelerationMeanX: Average time for body accelerations mean in X axis    
 
-4- BodyAccelerationMeanY: Average of body accelerations mean in Y axis
+4- TimeBodyAccelerationMeanY: Average time for body accelerations mean in Y axis
 
-5- BodyAccelerationMeanZ: Average of body accelerations mean in Z axis
+5- TimeBodyAccelerationMeanZ: Average time for body accelerations mean in Z axis
 
-6- BodyAccelerationSTDX: Average of body accelerations std (standard deviation)  in X axis
+6- TimeBodyAccelerationSTDX: Average time for body accelerations std (standard deviation)  in X axis
 
-7- BodyAccelerationSTDY: Average of body accelerations std (standard deviation)  in Y axis
+7- TimeBodyAccelerationSTDY: Average time for body accelerations std (standard deviation)  in Y axis
 
-8- BodyAccelerationSTDZ: Average of body accelerations std (standard deviation)  in Z axis
+8- TimeBodyAccelerationSTDZ: Average time for body accelerations std (standard deviation)  in Z axis
 
-9- GravityAccelerationMeanX: Average of gravity accelerations mean in X axis
+9- TimeGravityAccelerationMeanX: Average time for gravity accelerations mean in X axis
 
-10- GravityAccelerationMeanY: Average of gravity accelerations mean in Y axis
+10- TimeGravityAccelerationMeanY: Average time for gravity accelerations mean in Y axis
 
-11- GravityAccelerationMeanZ: Average of gravity accelerations mean in Z axis
+11- TimeGravityAccelerationMeanZ: Average time for gravity accelerations mean in Z axis
 
-12- GravityAccelerationSTDX: Average of gravity accelerations std (standard deviation)  in X axis
+12- TimeGravityAccelerationSTDX: Average time for gravity accelerations std (standard deviation)  in X axis
 
-13- GravityAccelerationSTDY: Average of gravity accelerations std (standard deviation)  in Y axis
+13- TimeGravityAccelerationSTDY: Average time for gravity accelerations std (standard deviation)  in Y axis
 
-14- GravityAccelerationSTDZ: Average of gravity accelerations std (standard deviation)  in Z axis
+14- TimeGravityAccelerationSTDZ: Average time for gravity accelerations std (standard deviation)  in Z axis
 
-15- BodyAccelerationJerkMeanX: Average of body accelerations mean for Jerk signal in X axis
+15- TimeBodyAccelerationJerkMeanX: Average time for body accelerations mean for Jerk signal in X axis
 
-16- BodyAccelerationJerkMeanY: Average of body accelerations mean for Jerk signal in Y axis
+16- TimeBodyAccelerationJerkMeanY: Average time for body accelerations mean for Jerk signal in Y axis
 
-17- BodyAccelerationJerkMeanZ: Average of body accelerations mean for Jerk signal in Z axis
+17- TimeBodyAccelerationJerkMeanZ: Average time for body accelerations mean for Jerk signal in Z axis
 
-18- BodyAccelerationJerkSTDX: Average of body accelerations std (standard deviation) for Jerk signal in X axis
+18- TimeBodyAccelerationJerkSTDX: Average time for body accelerations std (standard deviation) for Jerk signal in X axis
 
-19- BodyAccelerationJerkSTDY: Average of body accelerations std (standard deviation) for Jerk signal in Y axis
+19- TimeBodyAccelerationJerkSTDY: Average time for body accelerations std (standard deviation) for Jerk signal in Y axis
 
-20- BodyAccelerationJerkSTDZ: Average of body accelerations std (standard deviation) for Jerk signal in Z axis
+20- TimeBodyAccelerationJerkSTDZ: Average time for body accelerations std (standard deviation) for Jerk signal in Z axis
 
-21- BodyGyroscopeMeanX: Average of body gyroscope mean in X axis
+21- TimeBodyGyroscopeMeanX: Average time for body gyroscope mean in X axis
 
-22- BodyGyroscopeMeanY: Average of body gyroscope mean in Y axis
+22- TimeBodyGyroscopeMeanY: Average time for body gyroscope mean in Y axis
 
-23- BodyGyroscopeMeanZ: Average of body gyroscope mean in Z axis
+23- TimeBodyGyroscopeMeanZ: Average time for body gyroscope mean in Z axis
 
-24- BodyGyroscopeSTDX: Average of body gyroscope std (standard deviation) in X axis
+24- TimeBodyGyroscopeSTDX: Average time for body gyroscope std (standard deviation) in X axis
 
-25- BodyGyroscopeSTDY: Average of body gyroscope std (standard deviation) in Y axis
+25- TimeBodyGyroscopeSTDY: Average time for body gyroscope std (standard deviation) in Y axis
 
-26- BodyGyroscopeSTDZ: Average of body gyroscope std (standard deviation) in Z axis
+26- TimeBodyGyroscopeSTDZ: Average time for body gyroscope std (standard deviation) in Z axis
 
-27- BodyGyroscopeJerkMeanX: Average of body gyroscope mean for Jerk signal in X axis
+27- TimeBodyGyroscopeJerkMeanX: Average time for body gyroscope mean for Jerk signal in X axis
 
-28- BodyGyroscopeJerkMeanY: Average of body gyroscope mean for Jerk signal in Y axis
+28- TimeBodyGyroscopeJerkMeanY: Average time for body gyroscope mean for Jerk signal in Y axis
 
-29- BodyGyroscopeJerkMeanZ: Average of body gyroscope mean for Jerk signal in Z axis
+29- TimeBodyGyroscopeJerkMeanZ: Average time for body gyroscope mean for Jerk signal in Z axis
 
-30- BodyGyroscopeJerkSTDX: Average of body gyroscope std (standard deviation) for Jerk signal in X axis
+30- TimeBodyGyroscopeJerkSTDX: Average time for body gyroscope std (standard deviation) for Jerk signal in X axis
 
-31- BodyGyroscopeJerkSTDY: Average of body gyroscope std (standard deviation) for Jerk signal in Y axis
+31- TimeBodyGyroscopeJerkSTDY: Average time for body gyroscope std (standard deviation) for Jerk signal in Y axis
 
-32- BodyGyroscopeJerkSTDZ: Average of body gyroscope std (standard deviation) for Jerk signal in Z axis
+32- TimeBodyGyroscopeJerkSTDZ: Average time for body gyroscope std (standard deviation) for Jerk signal in Z axis
 
-33- BodyAccelerationMagnitudeMean: Average of body acceleration magnitude mean
+33- TimeBodyAccelerationMagnitudeMean: Average time for body acceleration magnitude mean
 
-34- BodyAccelerationMagnitudeSTD: Average of body acceleration magnitude std (standard deviation) 
+34- TimeBodyAccelerationMagnitudeSTD: Average time for body acceleration magnitude std (standard deviation) 
 
-35- GravityAccelerationMagnitudeMean: Average of gravity acceleration magnitude mean
+35- TimeGravityAccelerationMagnitudeMean: Average time for gravity acceleration magnitude mean
 
-36- GravityAccelerationMagnitudeSTD: Average of gravity acceleration magnitude std (standard deviation) 
+36- TimeGravityAccelerationMagnitudeSTD: Average time for gravity acceleration magnitude std (standard deviation) 
 
-37- BodyAccelerationJerkMagnitudeMean: Average of body acceleration magnitude mean of Jerk signal
+37- TimeBodyAccelerationJerkMagnitudeMean: Average time for body acceleration magnitude mean of Jerk signal
 
-38- BodyAccelerationJerkMagnitudeSTD: Average of body acceleration magnitude std (standard deviation) of Jerk signal
+38- TimeBodyAccelerationJerkMagnitudeSTD: Average time for body acceleration magnitude std (standard deviation) of Jerk signal
 
-39- BodyGyroscopeMagnitudeMean: Average of body gyroscope magnitude mean 
+39- TimeBodyGyroscopeMagnitudeMean: Average time for body gyroscope magnitude mean 
 
-40- BodyGyroscopeMagnitudeSTD: Average of body gyroscope magnitude std (standard deviation) 
+40- TimeBodyGyroscopeMagnitudeSTD: Average time for body gyroscope magnitude std (standard deviation) 
 
-41- BodyGyroscopeJerkMagnitudeMean: Average of body gyroscope magnitude mean of Jerk signal
+41- TimeBodyGyroscopeJerkMagnitudeMean: Average time for body gyroscope magnitude mean of Jerk signal
 
-42- BodyGyroscopeJerkMagnitudeSTD: Average of body gyroscope magnitude std (standard deviation) of Jerk signal
+42- TimeBodyGyroscopeJerkMagnitudeSTD: Average time for body gyroscope magnitude std (standard deviation) of Jerk signal
 
 43- FFTBodyAccelerationMeanX: Average of fast fourier transform for body acceleration mean in X axis
 
