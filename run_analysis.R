@@ -1,6 +1,7 @@
 
 root_path <- getwd()
 
+
 x_column_count <- 561 # as it is mentioned in features.txt
 
 get_filename <- function(filetype){
